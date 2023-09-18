@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		596E65A82AB7D34C00461491 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E65A72AB7D34C00461491 /* Item.swift */; };
+		596E65AB2AB7D74900461491 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E65AA2AB7D74900461491 /* NetworkManager.swift */; };
+		596E65AD2AB8BFEA00461491 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596E65AC2AB8BFEA00461491 /* ProductCellView.swift */; };
+		59BDC98C2AB625300085F61A /* AmazonTrackerPriceAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BDC98B2AB625300085F61A /* AmazonTrackerPriceAppApp.swift */; };
+		59BDC98E2AB625300085F61A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BDC98D2AB625300085F61A /* ContentView.swift */; };
+		59BDC9902AB625310085F61A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BDC98F2AB625310085F61A /* Assets.xcassets */; };
+		59BDC9932AB625310085F61A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BDC9922AB625310085F61A /* Preview Assets.xcassets */; };
+		59BDC9A02AB6256A0085F61A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BDC99F2AB6256A0085F61A /* ShareViewController.swift */; };
+		59BDC9A32AB6256A0085F61A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BDC9A12AB6256A0085F61A /* MainInterface.storyboard */; };
+		59BDC9A72AB6256A0085F61A /* AmazonShareExtensionApp.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 59BDC99D2AB6256A0085F61A /* AmazonShareExtensionApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59BDC9A52AB6256A0085F61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BDC9802AB625300085F61A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BDC99C2AB6256A0085F61A;
+			remoteInfo = AmazonShareExtensionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		59BDC9AB2AB6256A0085F61A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				59BDC9A72AB6256A0085F61A /* AmazonShareExtensionApp.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		596E65A72AB7D34C00461491 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		596E65AA2AB7D74900461491 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		596E65AC2AB8BFEA00461491 /* ProductCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellView.swift; sourceTree = "<group>"; };
+		59BDC9882AB625300085F61A /* AmazonTrackerPriceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazonTrackerPriceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BDC98B2AB625300085F61A /* AmazonTrackerPriceAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonTrackerPriceAppApp.swift; sourceTree = "<group>"; };
+		59BDC98D2AB625300085F61A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59BDC98F2AB625310085F61A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BDC9922AB625310085F61A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59BDC99D2AB6256A0085F61A /* AmazonShareExtensionApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AmazonShareExtensionApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BDC99F2AB6256A0085F61A /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		59BDC9A22AB6256A0085F61A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		59BDC9A42AB6256A0085F61A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59BDC9852AB625300085F61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BDC99A2AB6256A0085F61A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		596E65A62AB7D34000461491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				596E65A72AB7D34C00461491 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		596E65A92AB7D73E00461491 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				596E65AA2AB7D74900461491 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		59BDC97F2AB625300085F61A = {
+			isa = PBXGroup;
+			children = (
+				59BDC98A2AB625300085F61A /* AmazonTrackerPriceApp */,
+				59BDC99E2AB6256A0085F61A /* AmazonShareExtensionApp */,
+				59BDC9892AB625300085F61A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59BDC9892AB625300085F61A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59BDC9882AB625300085F61A /* AmazonTrackerPriceApp.app */,
+				59BDC99D2AB6256A0085F61A /* AmazonShareExtensionApp.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BDC98A2AB625300085F61A /* AmazonTrackerPriceApp */ = {
+			isa = PBXGroup;
+			children = (
+				596E65A92AB7D73E00461491 /* Network */,
+				596E65A62AB7D34000461491 /* Model */,
+				59BDC98B2AB625300085F61A /* AmazonTrackerPriceAppApp.swift */,
+				59BDC98D2AB625300085F61A /* ContentView.swift */,
+				596E65AC2AB8BFEA00461491 /* ProductCellView.swift */,
+				59BDC98F2AB625310085F61A /* Assets.xcassets */,
+				59BDC9912AB625310085F61A /* Preview Content */,
+			);
+			path = AmazonTrackerPriceApp;
+			sourceTree = "<group>";
+		};
+		59BDC9912AB625310085F61A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59BDC9922AB625310085F61A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59BDC99E2AB6256A0085F61A /* AmazonShareExtensionApp */ = {
+			isa = PBXGroup;
+			children = (
+				59BDC99F2AB6256A0085F61A /* ShareViewController.swift */,
+				59BDC9A12AB6256A0085F61A /* MainInterface.storyboard */,
+				59BDC9A42AB6256A0085F61A /* Info.plist */,
+			);
+			path = AmazonShareExtensionApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59BDC9872AB625300085F61A /* AmazonTrackerPriceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BDC9962AB625310085F61A /* Build configuration list for PBXNativeTarget "AmazonTrackerPriceApp" */;
+			buildPhases = (
+				59BDC9842AB625300085F61A /* Sources */,
+				59BDC9852AB625300085F61A /* Frameworks */,
+				59BDC9862AB625300085F61A /* Resources */,
+				59BDC9AB2AB6256A0085F61A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BDC9A62AB6256A0085F61A /* PBXTargetDependency */,
+			);
+			name = AmazonTrackerPriceApp;
+			productName = AmazonTrackerPriceApp;
+			productReference = 59BDC9882AB625300085F61A /* AmazonTrackerPriceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59BDC99C2AB6256A0085F61A /* AmazonShareExtensionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BDC9A82AB6256A0085F61A /* Build configuration list for PBXNativeTarget "AmazonShareExtensionApp" */;
+			buildPhases = (
+				59BDC9992AB6256A0085F61A /* Sources */,
+				59BDC99A2AB6256A0085F61A /* Frameworks */,
+				59BDC99B2AB6256A0085F61A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazonShareExtensionApp;
+			productName = AmazonShareExtensionApp;
+			productReference = 59BDC99D2AB6256A0085F61A /* AmazonShareExtensionApp.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59BDC9802AB625300085F61A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					59BDC9872AB625300085F61A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					59BDC99C2AB6256A0085F61A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 59BDC9832AB625300085F61A /* Build configuration list for PBXProject "AmazonTrackerPriceApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59BDC97F2AB625300085F61A;
+			productRefGroup = 59BDC9892AB625300085F61A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BDC9872AB625300085F61A /* AmazonTrackerPriceApp */,
+				59BDC99C2AB6256A0085F61A /* AmazonShareExtensionApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59BDC9862AB625300085F61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BDC9932AB625310085F61A /* Preview Assets.xcassets in Resources */,
+				59BDC9902AB625310085F61A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BDC99B2AB6256A0085F61A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BDC9A32AB6256A0085F61A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BDC9842AB625300085F61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596E65AB2AB7D74900461491 /* NetworkManager.swift in Sources */,
+				59BDC98E2AB625300085F61A /* ContentView.swift in Sources */,
+				596E65A82AB7D34C00461491 /* Item.swift in Sources */,
+				59BDC98C2AB625300085F61A /* AmazonTrackerPriceAppApp.swift in Sources */,
+				596E65AD2AB8BFEA00461491 /* ProductCellView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BDC9992AB6256A0085F61A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BDC9A02AB6256A0085F61A /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59BDC9A62AB6256A0085F61A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BDC99C2AB6256A0085F61A /* AmazonShareExtensionApp */;
+			targetProxy = 59BDC9A52AB6256A0085F61A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59BDC9A12AB6256A0085F61A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BDC9A22AB6256A0085F61A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59BDC9942AB625310085F61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59BDC9952AB625310085F61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59BDC9972AB625310085F61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonTrackerPriceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyong.AmazonTrackerPriceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BDC9982AB625310085F61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmazonTrackerPriceApp/Preview Content\"";
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyong.AmazonTrackerPriceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59BDC9A92AB6256A0085F61A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmazonShareExtensionApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AmazonShareExtensionApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyong.AmazonTrackerPriceApp.AmazonShareExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BDC9AA2AB6256A0085F61A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6LXP9JCNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmazonShareExtensionApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AmazonShareExtensionApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huyong.AmazonTrackerPriceApp.AmazonShareExtensionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59BDC9832AB625300085F61A /* Build configuration list for PBXProject "AmazonTrackerPriceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BDC9942AB625310085F61A /* Debug */,
+				59BDC9952AB625310085F61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BDC9962AB625310085F61A /* Build configuration list for PBXNativeTarget "AmazonTrackerPriceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BDC9972AB625310085F61A /* Debug */,
+				59BDC9982AB625310085F61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BDC9A82AB6256A0085F61A /* Build configuration list for PBXNativeTarget "AmazonShareExtensionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BDC9A92AB6256A0085F61A /* Debug */,
+				59BDC9AA2AB6256A0085F61A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59BDC9802AB625300085F61A /* Project object */;
+}
